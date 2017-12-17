@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 .page-wrapper{
   padding-top: 48px;
 }
@@ -69,15 +72,21 @@ ul li{
   font-size: 1.75rem;
   padding: 8px;
 }
-.order-summary-details ul li{
+.order-summary-details-wrapper ul{
+  display: table;
+  width: 100%;
+}
+.order-summary-details-wrapper ul li{
   display: table-row;
+  width: 100%;
 }
-.order-summary-details ul li span{
+.order-summary-details-wrapper ul li span{
   display: table-cell;
+  padding: 24px;
 }
-.order-summary-details ul li:not(:last-child){
+.order-summary-details-wrapper ul li span{
   border-bottom: 1px solid #ddd;
 }
-.order-summary-details ul li span:first-child{
-  margin-right:24px;
+.order-summary-details-wrapper ul li span:last-child{
+color: rgba(0,0,0,0.56);
 }
