@@ -98,3 +98,10 @@ ul li{
 .order-summary-details-wrapper ul li span:last-child{
 color: rgba(0,0,0,0.56);
 }
+
+.btn:hover,.btn:visited{
+  border-color: rgb(44, 189, 95);
+  background-color: rgb(44, 189, 95);
+  box-shadow: 0 0 0 4px  rgba(44, 189, 95,0.3);
+  cursor: pointer;
+}
